@@ -8,8 +8,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-    <title>Convert Money - AJDev</title>
+    <title>Convert Money - AJ DevBoost</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="./assets/brl.png">
 </head>
 
 <body>
@@ -19,7 +20,7 @@
         <label>
             Converter <b>de</b>
             <select type="number" class="currency-select-from" placeholder="Selecione">
-                <option value="BRL">Real (R$)</option>
+                <option value="BRL" selected>Real (R$)</option>
                 <option value="USD">Dólar (US$)</option>
                 <option value="EUR">Euro (€)</option>
                 <option value="BTC">Bitcoin (₿)</option>
@@ -29,7 +30,7 @@
         <label>Converter <b>para</b>
             <select type="number" class="currency-select-to" placeholder="Selecione">
                 <option value="BRL">Real (R$)</option>
-                <option value="USD">Dólar (US$)</option>
+                <option value="USD" selected>Dólar (US$)</option>
                 <option value="EUR">Euro (€)</option>
                 <option value="BTC">Bitcoin (₿)</option>
             </select>
@@ -43,8 +44,8 @@
 
         <section>
             <div class="currency-box">
-                <img src="./assets/brl.png" alt="logo-moeda-a-converter">
-                <p class="currency">Real</p>
+                <img src="./assets/brl.png" alt="logo-moeda-a-converter" class="currency-img-from">
+                <p class="currency currency-name-from">Real</p>
                 <p class="currency-value-to-convert">R$ 0,00</p>
             </div>
 
