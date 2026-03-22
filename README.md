@@ -7,6 +7,8 @@
 
 ### 🌍 Conversor de Moedas em Tempo Real
 
+<img width="814" height="529" alt="image" src="https://github.com/user-attachments/assets/879fa1dc-d0ff-4b80-97fb-c4fd2b29cf85" />
+
 **Converta moedas instantaneamente com cotações atualizadas automaticamente!**
 
 [✨ Ver Demo](https://anajunia7.github.io/conversor-de-moedas/) • [🐛 Reportar Bug](https://github.com/anajunia7/conversor-de-moedas/issues) • [💡 Sugerir Feature](https://github.com/anajunia7/conversor-de-moedas/issues)
